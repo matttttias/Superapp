@@ -7,7 +7,7 @@
     tools:context=".MainActivity"
     android:orientation="vertical"
     android:padding="40dp"
-    android:background="#FAFAFA">
+    android:background="@drawable/cactus3">
 
 
     <LinearLayout
@@ -28,9 +28,9 @@
             android:orientation="vertical"
             android:gravity="center">
         <ImageView
-            android:layout_width="85dp"
-            android:layout_height="85dp"
-            android:background="@drawable/brain"
+            android:layout_width="140dp"
+            android:layout_height="150dp"
+            android:background="@drawable/forest1"
             android:padding="10dp"
             />
         <TextView
@@ -38,12 +38,11 @@
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:layout_marginTop="10dp"
-            android:text="Short Focus"/>
+            android:text="Guided Mindfulness"/>
 
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background=""
             android:layout_margin="1dp"
         />
         </LinearLayout>
@@ -62,9 +61,9 @@
                 android:orientation="vertical"
                 android:gravity="center">
                 <ImageView
-                    android:layout_width="85dp"
-                    android:layout_height="85dp"
-                    android:background="@drawable/sleep"
+                    android:layout_width="140dp"
+                    android:layout_height="150dp"
+                    android:background="@drawable/dawn1"
                     android:padding="20dp"
                     />
                 <TextView
@@ -72,12 +71,11 @@
                     android:layout_height="wrap_content"
                     android:textStyle="bold"
                     android:layout_marginTop="10dp"
-                    android:text="Sleep"/>
+                    android:text="Nature Sounds"/>
 
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
-                    android:background=""
                     android:layout_margin="1dp"
                 />
             </LinearLayout>
@@ -105,9 +103,9 @@
                 android:orientation="vertical"
                 android:gravity="center">
                 <ImageView
-                    android:layout_width="85dp"
-                    android:layout_height="85dp"
-                    android:background="@drawable/hourglas"
+                    android:layout_width="140dp"
+                    android:layout_height="150dp"
+                    android:background="@drawable/dawn1"
                     android:padding="20dp"
                     />
                 <TextView
@@ -115,12 +113,11 @@
                     android:layout_height="wrap_content"
                     android:textStyle="bold"
                     android:layout_marginTop="10dp"
-                    android:text="15 minutes"/>
+                    android:text=""/>
 
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
-                    android:background=""
                     android:layout_margin="1dp"
                 />
             </LinearLayout>
@@ -139,9 +136,9 @@
                 android:orientation="vertical"
                 android:gravity="center">
                 <ImageView
-                    android:layout_width="85dp"
-                    android:layout_height="85dp"
-                    android:background="@drawable/hourglass"
+                    android:layout_width="140dp"
+                    android:layout_height="150dp"
+                    android:background="@drawable/forest1"
                     android:padding="10dp"
                     />
                 <TextView
@@ -149,12 +146,11 @@
                     android:layout_height="wrap_content"
                     android:textStyle="bold"
                     android:layout_marginTop="10dp"
-                    android:text="45 minutes"/>
+                    android:text=""/>
 
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
-                    android:background=""
                     android:layout_margin="1dp"
                 />
             </LinearLayout>
