@@ -4,7 +4,17 @@
             "outputFile": "C:\\Users\\renbe\\OneDrive\\Dokument\\AndroidStudioProjects\\Maj\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-uk\\values-uk.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\renbe\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\b1651e8163620bbf37486f40f6e3dd08\\res\\values-uk\\values-uk.xml",
+                    "source": "C:\\Users\\renbe\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\d5d47b6f21eba8dd03985915499f4a17\\res\\values-uk\\values-uk.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,215,317,423,509,617,735,814,894,975,1081,1188,1286,1394,1500,1609,1779,1879",
+                        "endColumns": "109,101,105,85,107,117,78,79,80,105,106,97,107,105,108,169,99,80",
+                        "endOffsets": "210,312,418,504,612,730,809,889,970,1076,1183,1281,1389,1495,1604,1774,1874,1955"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\renbe\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\01110124fce772a7281b5c18c39fe059\\res\\values-uk\\values-uk.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -18,16 +28,6 @@
                         "startOffsets": "1960",
                         "endColumns": "100",
                         "endOffsets": "2056"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\renbe\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\38fdf391e24e6e4869d966a586d07e92\\res\\values-uk\\values-uk.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,215,317,423,509,617,735,814,894,975,1081,1188,1286,1394,1500,1609,1779,1879",
-                        "endColumns": "109,101,105,85,107,117,78,79,80,105,106,97,107,105,108,169,99,80",
-                        "endOffsets": "210,312,418,504,612,730,809,889,970,1076,1183,1281,1389,1495,1604,1774,1874,1955"
                     }
                 }
             ]

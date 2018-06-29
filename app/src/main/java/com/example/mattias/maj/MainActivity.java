@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View v) {
         Intent i ;
-
+        overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
         switch (v.getId()){
             case R.id.focus_card : i = new Intent(this,firstmenu.class);startActivity(i); break;
             case R.id.sleep_card : i = new Intent(this,sleep.class);startActivity(i); break;
