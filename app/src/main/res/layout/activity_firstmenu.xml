@@ -7,7 +7,7 @@
     tools:context=".firstmenu"
     android:orientation="vertical"
     android:padding="40dp"
-    android:background="@drawable/cactus3">
+    android:background="#FFFAFA">
 
 
 

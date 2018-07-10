@@ -7,7 +7,7 @@
     tools:context=".MainActivity"
     android:orientation="vertical"
     android:padding="40dp"
-    android:background="@drawable/cactus3">
+    android:background="#FFFAFA">
 
 
     <LinearLayout
@@ -30,7 +30,7 @@
         <ImageView
             android:layout_width="140dp"
             android:layout_height="150dp"
-            android:background="@drawable/forest1"
+            android:background="@drawable/dawn2"
             android:padding="10dp"
             />
         <TextView
@@ -138,7 +138,7 @@
                 <ImageView
                     android:layout_width="140dp"
                     android:layout_height="150dp"
-                    android:background="@drawable/forest1"
+                    android:background="@drawable/forest2"
                     android:padding="10dp"
                     />
                 <TextView

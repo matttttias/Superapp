@@ -6,7 +6,7 @@ INJECTED from C:\Users\renbe\OneDrive\Dokument\AndroidStudioProjects\Maj\app\src
 INJECTED from C:\Users\renbe\OneDrive\Dokument\AndroidStudioProjects\Maj\app\src\main\AndroidManifest.xml:2:1-25:12
 MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\renbe\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\d5d47b6f21eba8dd03985915499f4a17\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\renbe\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\8b10f406bc699a7b8908f0cd513c6b81\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\renbe\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\0492c183906b513309272547cd08e9e2\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\renbe\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\acef29550c605e74f19706de34082db0\AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\renbe\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\a5a3075d5245988ca77e56ee79ab3c50\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\renbe\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\f29f2a5523c0d4854c824859ddf2b23c\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\renbe\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\5fb6c8470532c63b02f7e2fdfda00248\AndroidManifest.xml:17:1-22:12
@@ -36,8 +36,8 @@ INJECTED from C:\Users\renbe\OneDrive\Dokument\AndroidStudioProjects\Maj\app\src
 		ADDED from C:\Users\renbe\OneDrive\Dokument\AndroidStudioProjects\Maj\app\src\main\AndroidManifest.xml:2:11-69
 application
 ADDED from C:\Users\renbe\OneDrive\Dokument\AndroidStudioProjects\Maj\app\src\main\AndroidManifest.xml:5:5-23:19
-MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\renbe\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\0492c183906b513309272547cd08e9e2\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\renbe\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\0492c183906b513309272547cd08e9e2\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\renbe\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\acef29550c605e74f19706de34082db0\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\renbe\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\acef29550c605e74f19706de34082db0\AndroidManifest.xml:9:5-20
 	android:supportsRtl
 		ADDED from C:\Users\renbe\OneDrive\Dokument\AndroidStudioProjects\Maj\app\src\main\AndroidManifest.xml:10:9-35
 	android:label
@@ -88,8 +88,8 @@ MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\renbe\.gradle\cac
 MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\renbe\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\d5d47b6f21eba8dd03985915499f4a17\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\renbe\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\8b10f406bc699a7b8908f0cd513c6b81\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\renbe\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\8b10f406bc699a7b8908f0cd513c6b81\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\renbe\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\0492c183906b513309272547cd08e9e2\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\renbe\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\0492c183906b513309272547cd08e9e2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\renbe\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\acef29550c605e74f19706de34082db0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\renbe\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\acef29550c605e74f19706de34082db0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\renbe\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\a5a3075d5245988ca77e56ee79ab3c50\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\renbe\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\a5a3075d5245988ca77e56ee79ab3c50\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\renbe\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\f29f2a5523c0d4854c824859ddf2b23c\AndroidManifest.xml:20:5-44
