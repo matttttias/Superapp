@@ -1,80 +1,65 @@
 package com.example.mattias.maj;
 
-
+import android.app.Activity;
 import android.media.MediaPlayer;
-import android.os.Bundle;
-import android.os.Handler;
-import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
-import android.widget.SeekBar;
-import android.widget.TextView;
 
-public class play extends AppCompatActivity{
+public class play extends Activity implements View.OnClickListener{
+
+        Button play, pause, stop;
+        MediaPlayer mediaPlayer;
+        int pauseCurrentPosition;
+
+        @Override
+        protected void onCreate(Bundle savedInstanceState) {
+                super.onCreate(savedInstanceState);
+                setContentView(R.layout.play);
 
 
-  private Button btn_play, btn_pause;
-  private SeekBar seekBar;
-  private MediaPlayer mediaPlayer;
-  private Runnable runnable;
-  private Handler handler;
+                play=(Button) findViewById(R.id.btn_play);
+                pause=(Button) findViewById(R.id.btn_pause);
+                stop=(Button) findViewById(R.id.btn_stop);
 
-
-    @Override
-    protected void onCreate(@Nullable Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.play);
-
-        btn_play = findViewById(R.id.btn_play);
-        btn_pause = findViewById(R.id.btn_pause);
-        handler = new Handler();
-        mediaPlayer = MediaPlayer.create(this, android.R.raw.play);
-        seekBar = findViewById(R.id.seekBar);
-
-        mediaPlayer.setOnPreparedListener(new MediaPlayer.OnPreparedListener() {
-            @Override
-            public void onPrepared(MediaPlayer mp) {
-                seekBar.setMax(mediaPlayer.getDuration());
-                mediaPlayer.start();
-                changeSeekbar();
-            }
-        });
-
-        seekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
-            @Override
-            public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
-                if (b){
-                    mediaPlayer.seekTo(i);
-                }
-            }
-
-            @Override
-            public void onStartTrackingTouch(SeekBar seekBar) {
-
-            }
-
-            @Override
-            public void onStopTrackingTouch(SeekBar seekBar) {
-
-            }
-        });
-
-    }
-
-    private void changeSeekbar() {
-        seekBar.setProgress(mediaPlayer.getCurrentPosition());
-
-        if(mediaPlayer.isPlaying()){
-            runnable = new Runnable() {
-                @Override
-                public void run() {
-                    changeSeekbar();
-                }
-            };
-            handler.postDelayed(runnable, 1000);
+                play.setOnClickListener(this);
+                pause.setOnClickListener(this);
+                stop.setOnClickListener(this);
         }
 
+        @Override
+        public void onClick(View view) {
 
-    }
+                switch (view.getId()){
 
+                        case R.id.btn_play:
+                                if (mediaPlayer==null){
+                                mediaPlayer=MediaPlayer.create(getApplicationContext(), R.raw.breathingexercise);
+                                mediaPlayer.start();}
+
+                                else if (!mediaPlayer.isPlaying()){
+                                        mediaPlayer.seekTo(pauseCurrentPosition);
+                                        mediaPlayer.start();
+                                }
+
+                                break;
+
+                        case R.id.btn_pause:
+                                if (mediaPlayer!=null) {
+                                        mediaPlayer.pause();
+                                        pauseCurrentPosition=mediaPlayer.getCurrentPosition();
+
+                                }
+                                break;
+
+                        case R.id.btn_stop:
+                                if (mediaPlayer!=null) {
+                                        mediaPlayer.stop();
+                                        mediaPlayer = null;
+                                }
+                                break;
+
+                }
+        }
 }
